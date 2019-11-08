@@ -1,3 +1,4 @@
 #!/bin/sh
 
-python /app/$pyfile
+cd /app
+python $pyfile
