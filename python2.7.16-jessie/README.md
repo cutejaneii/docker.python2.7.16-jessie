@@ -1,4 +1,4 @@
-# docker.python2.7-jessie
+# docker.python2.7-jessie:no-nfs
 
 ## 指令
 
