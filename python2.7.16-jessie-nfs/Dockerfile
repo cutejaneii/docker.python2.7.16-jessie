@@ -17,6 +17,8 @@ ENV pyfile main.py
 COPY entrypoint.sh .
 RUN chmod +x entrypoint.sh
 
-COPY . /app
+RUN mkdir app
+COPY app /app
+WORKDIR /app
 
 CMD ["sh","entrypoint.sh"]
