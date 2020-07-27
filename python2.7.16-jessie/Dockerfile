@@ -5,7 +5,8 @@ RUN pip install pandas cassandra-driver
 RUN pip install Pillow scp
 
 
-COPY . /app
+RUN mkdir app
+COPY app /app
 WORKDIR /app
 
 CMD ["python", "main.py"]
