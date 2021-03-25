@@ -5,7 +5,7 @@ cassandra-driver==3.17.0
 arrow==0.13.1
 pandas==0.24.2
 pypinyin==0.35.2
-pyyaml==5.1
+pyyaml==5.4
 regex==2019.4.14
 requests==2.21.0
 tensorflow==1.4.1
